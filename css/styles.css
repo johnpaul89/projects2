@@ -1,0 +1,34 @@
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.jumbotron{
+background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/backgrounds/landing.jpg?raw=true);
+background-size: contain;
+}
+.container h1{
+  color: White;
+}
+p{
+  text-align: center;
+  color: white;
+}
+.container .center{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
