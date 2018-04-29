@@ -1,9 +1,4 @@
-$(document).ready(function() {
-     $(".clickable").click(function() {
-       $(".walrus-showing").toggle();
-       $(".walrus-hidden").toggle();
-     });
-   });
+
    /* When the user clicks on the button,
    toggle between hiding and showing the dropdown content */
    function myFunction() {
@@ -25,7 +20,8 @@ $(document).ready(function() {
        }
      }
    }
-   function myFunction() {
+
+function myFunction() {
        var x = document.getElementById("myEmail").value;
        document.getElementById("demo").innerHTML = x;
    }

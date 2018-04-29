@@ -13,7 +13,7 @@ It also includes to how you can subscribe to contact Anita via  email.
 * You can access my project on the link below.
 
 ## Link to GITHUB pages.
-https://johnpaul89.github.io/projects/index.html
+https://johnpaul89.github.io/projects2/index.html
 
 ### License
 MIT License
