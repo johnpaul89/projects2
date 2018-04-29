@@ -141,7 +141,7 @@ input[type=text]{
     width: 30%;
 
 }
-input[type=submit]{
+.submit{
   width: 20%;
   background-color: #E64A19;
   color: white;
