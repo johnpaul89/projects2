@@ -239,7 +239,7 @@ menu {
 .show {
   display:block;
 }
-.btn {
+.btn  {
    background-color:  #E64A19;
     border: none;
     color: white;
