@@ -3,15 +3,21 @@
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Anita's Kitchen</title>
 </head>
 <body>
   <div class="container">
   <div class="jumbotron">
-    <div class="menu" ></div>
-    <div class="menu" ></div>
-    <div class="menu" ></div>
-    <div class="menu" ></div>
+    <div class="dropdown">
+<button onclick="myFunction()" class="btn dropbtn "><i class="fa fa-bars"></i></button>
+<div id="myDropdown" class="dropdown-content">
+  <a href="#">Home</a>
+  <a href="#">Foods</a>
+  <a href="#">Drinks</a>
+  <a href="#">About us</a>
+</div>
+</div>
     <img class="top" src="https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/logoBig.png?raw=true">
      <p class="top">We Provide The Best Food At The <strong>Right Price</strong></p>
   </div>
@@ -123,6 +129,9 @@
     </p>
   </div>
 </div>
+<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/styles.js"></script>
+
 </body>
 
 </html>
