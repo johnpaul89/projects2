@@ -12,7 +12,7 @@ $(document).ready(function() {
 
    // Close the dropdown menu if the user clicks outside of it
    window.onclick = function(event) {
-     
+
      if (!event.target.matches('.dropbtn')) {
 
        var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -24,4 +24,8 @@ $(document).ready(function() {
          }
        }
      }
+   }
+   function myFunction() {
+       var x = document.getElementById("myEmail").value;
+       document.getElementById("demo").innerHTML = x;
    }
