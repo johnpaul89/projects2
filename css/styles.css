@@ -1,34 +1,194 @@
-.container{
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .jumbotron{
-background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/backgrounds/landing.jpg?raw=true);
-background-size: contain;
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/backgrounds/landing.jpg?raw=true);
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
-.container h1{
-  color: White;
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
 }
-p{
+.top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: white;
+}
+.a{
+  background-color: lightgrey;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.b{
+  background-color: #E64A19;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.c{
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/foodtop/breakfast.jpg?raw=true);
+  color: white;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+.d{
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/foodtop/lunch.jpg?raw=true);
+  color: white;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+.e{
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/foodtop/dinner.jpg?raw=true);
+  color: white;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+.row2{
+  padding-top: 75px;
+}
+.button1 {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+.row3{
+  margin-top: 20px;
+}
+.f{
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+.g{
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+.i{
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/drink1.jpg?raw=true);
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 180px;
+  padding-top: 180px;
+}
+.j{
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/drink2.jpg?raw=true);
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 180px;
+  padding-top: 180px;
+}
+.k{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 75px;
+}
+.row7{
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/backgrounds/foodsBg.jpg?raw=true);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 325px;
+  padding-top: 75px;
+  background-size: cover;
+}
+h4{
+  font-style: strong;
+  color: white;
+}
+.img{
+
+}
+.customers{
+  text-align: center;
+  color: #E64A19;
+}
+.customer{
+  color: black;
+  text-align: center;
+}
+.r{
+  background-image: url(https://github.com/moringaschool/mpft-ip/blob/master/ip2/assets/backgrounds/subscribe.jpg?raw=true);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+.s{
   text-align: center;
   color: white;
 }
-.container .center{
-  display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;
+.t{
+  text-align: center;
 }
-.column {
-    float: left;
-    width: 25%;
-}
+input[type=text]{
+    width: 30%;
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+}
+input[type=submit]{
+  width: 20%;
+  background-color: #E64A19;
+  color: white;
+}
+.v{
+  background-color: #E64A19;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-top: 75px;
+}
+.q{
+  text-align: center;
+  color: white;
+}
+.w{
+  text-align: center;
+  color: white;
+}
+.y{
+  text-align: center;
+  color: white;
+}
+.foot{
+  width: 1200px;
+   margin: 0 auto 0 auto;
+   display: inline-block;
+   text-align: center;
+}
+.logo{
+  width: 600px;
+   margin: 0 auto 0 auto;
+   display: inline-block;
+   text-align: center;
+}
+.caption{
+  color: #E64A19;
+}
+.button1 {
+    background-color: white;
+    color: red;
+    border: 2px solid #red;
+}
+.right{
+  text-align: right;
+}
+.row8{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
